@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complete Responsive Food Website Design Tutorial</title>
+
+    <!-- swiperjs -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap"
+        rel="stylesheet" />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <!-- hamburger -->
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+             <span class="bar"></span>
+        </div>
+        <h2 class="logo">PrettyThings</h2>
+        <div class="menu-list">
+            <a href="#home">Home</a>
+            <a href="#collections">Collections</a>
+            <a href="#product">product</a>
+            <a href="#offers">offers</a>
+            <a href="#news">news</a>
+        </div>
+        <div class="menu-right">
+            <div class="search">
+                <button class="btn btn-menu">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+
+            <div class="cart"><button class="btn btn-menu">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                <!-- cart item list-->
+                <div class="cart-content">
+                    <a href="#">
+                        <div class="cart-detail">
+                            <img src="./images/dish-1.png" alt="" class="cart-image">
+                            <div class="cart-text">
+                                <h4>One Set Workout</h4>
+                                <p>2 items</p>
+                            </div>
+                            <h4>$120</h4>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="cart-detail">
+                            <img src="./images/dish-2.png" alt="" class="cart-image">
+                            <div class="cart-text">
+                                <h4>Black Shirt</h4>
+                                <p>1 items</p>
+                            </div>
+                            <h4>$100</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- header -->
+    <header id="home">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/home-img.jpg" alt="">
+                    <div class="swiper-desc">
+                        <h1>Discover Your <br> Own Style</h1>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum voluptas ad aliquam
+                            voluptate
+                            iusto!
+                        </p>
+                        <button class="swiper-btn">Check Now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/home-img.jpg" alt="">
+                    <div class="swiper-desc desc2">
+                        <h1>Shopping The Way <br> You Like It</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ratione repellat nemo autem
+                            est.
+                        </p>
+                        <button class="swiper-btn">Check Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </header>
+
+    <!-- Guarantee -->
+    <section class="guarantee">
+        <div class="guarantee-wrapper">
+            <div class="gaurantee-card">
+                <i class="fas fa-truck guarantee-icon"></i>
+                <div class="gruarantee-text">
+                    <h3>Free Shipping</h3>
+                    <p>Free shipping worldwide on order more than $70, what are you waiting for?</p>
+                </div>
+            </div>
+            <div class="gaurantee-card">
+                <i class="fas fa-truck-loading guarantee-icon"></i>
+                <div class="gruarantee-text">
+                    <h3>30-day Returns</h3>
+                    <p>If yo do not like the product, you have 30days to return</p>
+                </div>
+            </div>
+            <div class="gaurantee-card">
+                <i class="fas fa-money-bill-wave guarantee-icon"></i>
+                <div class="gruarantee-text">
+                    <h3>100% Money Refund</h3>
+                    <p>We committed to sell original product, we will refund your money if product</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- collection -->
+    <section class="collection" id="collection">
+        <h1 class="geading-title">Discover Collections</h1>
+        <div class="collection-wrapper">
+            <!-- left -->
+            <div class="collection-left">
+                <div class="collection-card">
+                    <img src="./images/home-img-1.jpg" alt="">
+                    <div class="collection-detail">
+                        <h2>Casual Outfit</h2>
+                        <span><i class="fas fa-long-arrow-alt-right"></i> Shop Now</span>
+                    </div>
+                </div>
+            </div>
+            <!-- right -->
+            <div class="collection-right">
+                <div class="collection-card">
+                    <img src="./images/home-img-4.jpg" alt="">
+                    <div class="collection-detail">
+                        <h2>Workout Now</h2>
+                        <span><i class="fas fa-long-arrow-alt-right"></i> Shop Now</span>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <img src="./images/home-img-2.jpg" alt="">
+                    <div class="collection-detail">
+                        <h2>Vacation Series</h2>
+                        <span><i class="fas fa-long-arrow-alt-right"></i> Shop Now</span>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <img src="./images/home-img-5.jpg" alt="">
+                    <div class="collection-detail">
+                        <h2>Dress in Black</h2>
+                        <span><i class="fas fa-long-arrow-alt-right"></i> Shop Now</span>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <img src="./images/home-img-3.jpg" alt="">
+                    <div class="collection-detail">
+                        <h2>Ready to go</h2>
+                        <span><i class="fas fa-long-arrow-alt-right"></i> Shop Now</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- product -->
+    <section class="product" id="product">
+        <h1 class="heading-titl3">Popular Products</h1>
+        <!-- filter button -->
+        <div class="filter-group" id="filter">
+            <button class="product-filter is-checked" data-filter="*">
+                All Products
+            </button>
+            <button class="product-filter" data-filter=".new">
+                New Arrival
+            </button>
+            <button class="product-filter" data-filter=".best">
+                Best Seller
+            </button>
+            <button class="product-filter" data-filter=".promo">
+                Promo
+            </button>
+        </div>
+        <!-- product list -->
+        <div class="product-wrapper">
+            <div class="product-card new">
+                <div class="product-label label-red">New</div>
+                <img src="./images/dish-1.png" alt="" class="product-img">
+                <div class="product-detail">
+                    <h4>One Set Workout <i class="far fa-heart"></i> </h4>
+                    <span>$ 30.99</span>
+                </div>
+                <button class="product-button">Add to cart</button>
+            </div>
+            <div class="product-card best">
+                <div class="product-label label-yellow">Best Seller</div>
+                <img src="./images/dish-2.png" alt="" class="product-img">
+                <div class="product-detail">
+                    <h4>Black Shirt <i class="far fa-heart"></i> </h4>
+                    <span>$ 30.99</span>
+                </div>
+                <button class="product-button">Add to cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./images/dish-3.png" alt="" class="product-img">
+                <div class="product-detail">
+                    <h4>Pink Blazer & Skirt <i class="far fa-heart"></i> </h4>
+                    <span>$ 30.99</span>
+                </div>
+                <button class="product-button">Add to cart</button>
+            </div>
+            <div class="product-card promo">
+                <div class="product-label label-blue">Promo</div>
+                <img src="./images/dish-4.png" alt="" class="product-img">
+                <div class="product-detail">
+                    <h4>Flower Dress <i class="far fa-heart"></i> </h4>
+                    <span>$ 30.99</span>
+                </div>
+                <button class="product-button">Add to cart</button>
+            </div>
+            <div class="product-card new">
+                <div class="product-label label-red">New</div>
+                <img src="./images/dish-1.png" alt="" class="product-img">
+                <div class="product-detail">
+                    <h4>One Set Workout <i class="far fa-heart"></i> </h4>
+                    <span>$ 30.99</span>
+                </div>
+                <button class="product-button">Add to cart</button>
+            </div>
+            <div class="product-card best">
+                <div class="product-label label-yellow">Best Seller</div>
+                <img src="./images/dish-2.png" alt="" class="product-img">
+                <div class="product-detail">
+                    <h4>Black Shirt <i class="far fa-heart"></i> </h4>
+                    <span>$ 30.99</span>
+                </div>
+                <button class="product-button">Add to cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./images/dish-3.png" alt="" class="product-img">
+                <div class="product-detail">
+                    <h4>Pink Blazer & Skirt <i class="far fa-heart"></i> </h4>
+                    <span>$ 30.99</span>
+                </div>
+                <button class="product-button">Add to cart</button>
+            </div>
+            <div class="product-card promo">
+                <div class="product-label label-blue">Promo</div>
+                <img src="./images/dish-4.png" alt="" class="product-img">
+                <div class="product-detail">
+                    <h4>Flower Dress <i class="far fa-heart"></i> </h4>
+                    <span>$ 30.99</span>
+                </div>
+                <button class="product-button">Add to cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- offer -->
+    <section class="offers" id="offers">
+        <div class="offers-wrapper">
+            <h2>Season Sale</h2>
+            <h2>Up to 50% off All Products</h2>
+            <button class="offers-button">Shop Now</button>
+        </div>
+    </section>
+
+    <section class="news" id="news">
+        <h1 class="heading-title">Latest News</h1>
+        <div class="news-wrapper">
+            <div class="news-card">
+                <img src="images/pic-1.png" alt="" class="news-image">
+                <div class="news-overlay"></div>
+                <div class="news-detail">
+                    <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit</h4>
+                    <a href="#">See more</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="images/pic-2.png" alt="" class="news-image">
+                <div class="news-overlay"></div>
+                <div class="news-detail">
+                    <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit</h4>
+                    <a href="#">See more</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="images/pic-3.png" alt="" class="news-image">
+                <div class="news-overlay"></div>
+                <div class="news-detail">
+                    <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit</h4>
+                    <a href="#">See more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- newsletter -->
+    <div class="newsletter" id="newsletter">
+        <h1 class="heading-title">Newsletter</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <form action="" class="newsletter-form">
+            <input type="email" placeholder="Your email Address">
+            <button type="button" class="newsletter-btn">Subscribe</button>
+        </form>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-card">
+                <h3>PrettyThings</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptas inventore ea explicabo
+                    distinctio.
+                </p>
+                <div class="download-apps">
+                    <img src="./images/play-store.svg" alt="">
+                    <img src="./images/app-store.svg" alt="">
+                </div>
+            </div>
+            <div class="footer-card">
+                <h4>Explore More</h4>
+                <a href="">About Us</a>
+                <a href="">Customer Services</a>
+                <a href="">Help</a>
+                <a href="">Blog</a>
+                <a href="">FAQs</a>
+            </div>
+            <div class="footer-card">
+                <h4>Our Serices</h4>
+                <a href="">Free Shipping</a>
+                <a href="">Guarantee Product</a>
+                <a href="">Gift Card</a>
+                <a href="">Pricing</a>
+                <a href="">Refund Product</a>
+                <a href="">Payment Methods</a>
+            </div>
+
+            <div class="footer-card">
+                <h4>Our Product</h4>
+                <a href="">Man Style</a>
+                <a href="">Woman Style</a>
+                <a href="">Casuals</a>
+                <a href="">Work Collections</a>
+                <a href="">Flash Sale</a>
+            </div>
+
+            <div class="footer-card">
+                <h4>Follow Us</h4>
+                <a href=""><i class="fab fa-facebook social-media"></i></a>
+                <a href=""><i class="fab fa-twitter social-media"></i></a>
+                <a href=""><i class="fab fa-youtube social-media"></i></a>
+                <a href=""><i class="fab fa-instagram social-media"></i></a>
+            </div>
+        </div>
+        <hr class="divider">
+        <p class="copyright">copyright &copy; 2022 | All right reserve</p>
+    </footer>
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
